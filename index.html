@@ -1,400 +1,218 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <meta name="theme-color" content="#2196F3">
-    <title>Raimundo Néto</title>
+<html lang="pt-br">
+<title>Raimundo Néto | Analiste de Sistemas e Desenvolvedor Web.</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/stuck.css">
+<link rel="stylesheet" href="css/style.css">
 
-    <!-- CSS  -->
-    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
-
-        <!-- CORE CSS-->
-  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-  
-  <!-- Custome CSS-->    
-  <link href="css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="css/plugins/media-hover-effects.css" type="text/css" rel="stylesheet" media="screen,projection">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous"> -->
 
 
-  <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
-  <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="js/plugins/magnific-popup/magnific-popup.css" type="text/css" rel="stylesheet" media="screen,projection"> 
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/script.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script>
+ $(document).ready(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});
+  });
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+<!--[if lt IE 9]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+<!--[if lt IE 10]>
+<link rel="stylesheet" media="screen" href="css/ie1.css">
+<![endif]-->
 </head>
-<body id="top" class="scrollspy">
-
-<!-- Pre Loader 
-<div id="loader-wrapper">
-    <div id="loader"></div>
- 
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
- 
-</div>-->
-
-<!--Navigation-->
- <div class="navbar-fixed">
-    <nav id="nav_f" class="default_color" role="navigation">
-        <div class="container">
-            <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo">Raimundo Néto</a>
-                <ul class="right hide-on-med-and-down">
-                    <!--<li><a href="#intro">Valores</a></li>-->
-                    <li><a href="#work">Serviços</a></li>
-                    <li><a href="#team">Saiba Mais</a></li>
-                    <li><a href="portfolio.html">Portfólio</a></li>
-                    <li><a href="#contact">Contato</a></li>
-
-                    <!--<li><a href="https://github.com/joashp/material-design-template" target="_blank">Download</a></li>-->
-                </ul>
-                <ul id="nav-mobile" class="side-nav">
-                    <!--<li><a href="#intro">Valores</a></li>-->
-                    <li><a href="#work">Serviços</a></li>
-                    <li><a href="#team">Saiba Mais</a></li>
-                    <li><a href="portfolio.html">Portfólio</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                    <!--<li><a href="https://github.com/joashp/material-design-template" target="_blank">Download</a></li>-->
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-            </div>
-        </div>
-    </nav>
-</div>
-
-
-
-<!--Letras vivas - Hero-
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-        <h1 class="text_h center header cd-headline letters type">
-            <span>Criando Soluções </span></br>
-            <span class="cd-words-wrapper waiting">
-                <b class="is-visible">Inteligentes</b>
-                <b>Inovadoras</b>
-                <b>Com Qualidade</b>
-            </span>
+<body class="page1" id="top" >
+<!--==============================
+              header
+=================================-->
+<header>
+<!--==============================
+            Stuck menu
+=================================-->
+  <section id="stuck_container" >
+    <div class="container" >
+      <div class="row">
+        <div class="col-12">
+        <h1>
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo alt">
+          </a>
         </h1>
-    </div>
-</div>-->
-
-<!--Parallax Imagem de Fundo
-<div class="parallax-container">
-    <div class="parallax"><img src="img/Clavier-Nuit.jpg"></div>
-</div>-->
-
-<section id="content">        
-
-        <!--start container-->
-        <div class="container" id="team">
-
-          <div id="profile-page" class="section">
-            <!-- profile-page-header -->
-            <div id="profile-page-header" class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="img/abstract.jpg" alt="user background">                    
-                </div>
-                <figure class="card-profile-image">
-                    <img src="img/eu.jpg" alt="profile image" class="circle z-depth-2 responsive-img activator">
-                </figure>
-                <div class="card-content">
-                  <div class="row">                    
-                    <div class="col s12 m12  offset-s2 center-align">                        
-                        <h2 class="card-title grey-text text-darken-4">Raimundo Néto</h2>
-                        <p class="medium grey-text">Analista e Desenvolvedor de Sistemas</p>
-                    </div>
-                    <p class="medium-small grey-text">Clique na foto para mais informações.</p>
-                    <!--<div class="col s3 center-align">
-                        <h4 class="card-title grey-text text-darken-4">01 Ano</h4>
-                        <p class="medium-small grey-text">Experiência</p>                        
-                    </div>-->
-                    <!--<div class="col s12 m4 l4 center-align">
-                        <h4 class="card-title grey-text text-darken-4">8</h4>
-                        <p class="medium-small grey-text">Projetos Completos</p>                        
-                    </div>   -->                 
-          <!--      <div class="col s12 m12 l2 center-align">
-                        <h4 class="card-title grey-text text-darken-4"></h4>
-                        <p class="medium-small grey-text">Clique sobre a minha foto para descobriar mais sobre mim.</p>
-                    </div>  -->
-                    
-                    <div class="col s12 right-align">
-                      <a class="btn-floating activator waves-effect waves-light darken-2 right" target="_blank" href="doc/cv_Raimundo_Rodrigues_De_Moura_Néto.pdf">
-                        <i class="mdi-file-file-download">Baixe Meu Currículo</i>
-                      </a>
-                    </div>
-
-                  </div>
-                </div>
-                <div class="card-reveal">
-                    <p>
-                      <span class="card-title grey-text text-darken-4"><b>Raimundo Rodrigues de Moura Néto </b><i class="mdi-navigation-close right"></i></span>
-                      <span><i class="mdi-action-perm-identity cyan-text text-darken-2"></i> Analista e Desenvolvedor de Sistemas</span>
-                    </p>
-
-                    <p>Tenho 22 anos e sou graduado em Analise e Desenvolvimento de Sistemas, pelo Centro Universitário Dr. Leão Sampaio, com início em Janeiro de 2013 e termino em Dezembro de 2016. Trabalho com Desenvolvimento de Sites, Sistemas Web, porém meu forte é no desenvolvimento front-end (a parte visual), também trabalho com criação de logotipos e edição de vídeos. </br>
-
-                        </br><b>Skills:</b> HTML 5, CSS 3, Delphi, PHP, Python, JavaScript, MySQL, Bootstrap, Materialize Design, Wordpress, Joomla, Photoshop, Illustrator, Sony Vegas, Redes de Computadores, Sistemas Linux, ITIL e Scrum.</h4></p></p>
-                    
-                    <p><i class="mdi-action-perm-phone-msg cyan-text text-darken-2"></i> +55 (88)9 9707-5717</p>
-                    <p><i class="mdi-communication-email cyan-text text-darken-2"></i> raimundormneto@outlook.com</p>
-                    <p><i class="mdi-social-location-city cyan-text text-darken-2"></i> Crato / Piquet Carneiro - Ceará - Brasil</p>
-                </div>
-            </div>
-
-<div class="row">
-                <h4 class="col s12" id="work">Serviços</h4>
-                <div class="col s12 m3 grid">
-                  <figure class="effect-sadie">
-                    <img src="img/intro-image.png" alt="img11"/>
-                    <figcaption>
-                      <h2><span>Sites</span></h2>
-                      <p>Desenvolvimento de sites otimizados para empresas que querem marcar sua presença na web com qualidade de acordo com sua necessidade.</p>
-                      <a href="#">View more</a>
-                    </figcaption>     
-                  </figure>
-                </div>
-                <div class="col s12 m3 grid">
-                  <figure class="effect-sadie">
-                    <img src="img/loja-virtual.png" alt="img03"/>
-                    <figcaption>
-                      <h2><span>Loja Virtual</span></h2>
-                      <p>Desenvolvimento de loja virtual exclusiva e sob medida para empresas que querem vender na internet.</p>
-                      <a href="#">View more</a>
-                    </figcaption>     
-                  </figure>
-                </div>
-             
-              
-                
-                <div class="col s12 m3 grid">
-                  <figure class="effect-sadie">
-                    <img src="img/desenvolvimento.png" alt="img11"/>
-                    <figcaption>
-                      <h2><span>Sistemas</span></h2>
-                      <p>Desenvolvimento de sistemas que o permitem ter um controle eficiente e eficaz sobre seu empreendimento.</p>
-                      <a href="#">View more</a>
-                    </figcaption>     
-                  </figure>
-                </div>
-                <div class="col s12 m3 grid">
-                  <figure class="effect-sadie">
-                    <img src="img/project1.png" alt="img03"/>
-                    <figcaption>
-                      <h2><span>Logotipos</span></h2>
-                      <p>Criação de logotipo para empresas e profissionais que querem criar sua identidade visual.</p>
-                      <a href="#">View more</a>
-                    </figcaption>     
-                  </figure>
-                </div>
-       </div>
-
-
-
-<!--Saiba Mais--
-<div class="section scrollspy" id="team">
-    <div class="container">
-        <h2 class="header text_b"> Saiba Mais </h2>
-        <div class="row">
-            <div class="col s12 m12" >
-                <div class="card card-avatar" >
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/eu.jpg" ><h6><i>*clique na foto para saber quem eu sou</i></h6>
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Raimundo Néto <br/>
-                            <small><em><a class="red-text text-darken-1"><h5>Analista de Sistemas | Web Design</h5></a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" target="_blank" href="https://www.facebook.com/raimundormneto">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" target="_blank" href="https://twitter.com/RdoNetto30">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/raimundo-rodrigues-de-moura-néto-748902b6">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        
-                        </p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Raimundo Néto<i class="mdi-navigation-close right"></i></span>
-                        <p><h4>Sou cearense, tenho 22 anos e sou graduado em Analise e Desenvolvimento de Sistemas, pelo Centro Universitário Dr. Leão Sampaio, com início em Janeiro de 2013 e termino em Dezembro de 2016. Trabalho com Desenvolvimento de Sites, Sistemas Web, porém meu forte é no desenvolvimento front-end (a parte visual), também trabalho com criação de logotipos e edição de vídeos. </br>
-
-                        </br>Skills: HTML 5, CSS 3, Delphi, PHP, Python, JavaScript, MySQL, Bootstrap, Materialize Design, Wordpress, Joomla, Photoshop, Illustrator, Sony Vegas, Redes de Computadores, Sistemas Linux, Itil e Scrum.</h4></p>
-                 </div>
-                </div>
-            </div>
-           <!-- <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar2.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Cat Woman<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Designer</a></em></small>
-                        </span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar3.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">
-                            Capt. America <br/>
-                            <small><em><a class="red-text text-darken-1" href="#">CMO</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m3">
-                <div class="card card-avatar">
-                    <div class="waves-effect waves-block waves-light">
-                        <img class="activator" src="img/avatar4.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Robin<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Developer</a></em></small></span>
-                        <p>
-                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-                                <i class="fa fa-twitter-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-                                <i class="fa fa-google-plus-square"></i>
-                            </a>
-                            <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-                                <i class="fa fa-linkedin-square"></i>
-                            </a>
-                        </p>
-                    </div>-->
-                </div>
-            </div>
+          <div class="navigation ">
+            <nav>
+              <ul class="sf-menu">
+               <li class="current"><a href="index.html">Home</a></li>
+               <li><a href="index-1.html">Sobre Mim</a></li>
+               <li><a href="index-2.html">Portfolio</a></li>
+               <li><a href="index-4.html">Contato</a></li>
+             </ul>
+            </nav>
+            <div class="clear"></div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </section>
+</header>
+<!--=====================
+          Content
+======================-->
+<section class="content"><div class="ic"></div>
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">
+        <div class="ta__center">
+          <h2>“A melhor maneira de prever o futuro é inventá-lo."<h3>Alan Kay.</h3> </h2>
+          
 
-<!--Footer-->
+             <div class="banners">
+            <a href="#" class="banner">
+              <img src="images/bann_img1.jpg" alt="">
+              <div class="bann_capt"><span>Web Design</span></div>
+            </a>
+            <a href="#" class="banner">
+              <img src="images/bann_img2.jpg" alt="">
+              <div class="bann_capt"><span>Desenvolvimento</span></div>
+            </a>
+            <a href="#" class="banner">
+              <img src="images/bann_img3.jpg" alt="">
+              <div class="bann_capt"><span>Design Gráfico</span></div>
+            </a>
+            <a href="#" class="banner">
+              <img src="images/bann_img4.jpg" alt="">
+              <div class="bann_capt"><span>Planejamento</span></div>
+            </a>
+          </div>
 
-<footer id="contact" class="page-footer default_color scrollspy">
-    <div class="container">  
-        <div class="row">
-<!-- Inicio do Formulario de Contato 
-         <div class="col l6 s12">
-                <form class="col s12" action="contact.php" method="post">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <i class="mdi-action-account-circle prefix white-text"></i>
-                            <input id="icon_prefix" name="name" type="text" class="validate white-text">
-                            <label for="icon_prefix" class="white-text">Nome</label>
-                        </div>
-                        <div class="input-field col s6">
-                            <i class="mdi-communication-email prefix white-text"></i>
-                            <input id="icon_email" name="email" type="email" class="validate white-text">
-                            <label for="icon_email" class="white-text">E-mail</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <i class="mdi-editor-mode-edit prefix white-text"></i>
-                            <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
-                            <label for="icon_prefix2" class="white-text">Messagem</label>
-                        </div>
-                        <div class="col offset-s7 s5">
-                            <button class="btn waves-effect waves-light red darken-1" type="submit">Enviar
-                                <i class="mdi-content-send right white-text"></i>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>-->
-            <!-- Fim do Formulario de Contato -->
-            <div class="col l3 s12">
-                <ul>
-                 <li><a class="white-text" href="https://raimundonetoblog.wordpress.com/" target="_blank"><h5 class="white-text"><i class="small fa fa-wordpress white-text"></i> Meu Blog</h5></a></li>
-                </ul>
+          <div class="clear"></div>
+           <h3></h3> -
+           <div class="row">
+            <div class="grid_8 preffix_2">
+              <div class="st1"><h3>Gostou dos meus trabalhos? Vamos trabalhar juntos!</h3> <p> <h4> Solicite um orçamento e tenha um site Incrível com a cara de seu negocio.</h4>
+              </div>
+              <a href="index-4.html" class="btn">Orçamento!</a>
             </div>
-            <!-- Inicio das Redes Sociais -->
-            <div class="col l3 s12">
-                <h5 class="white-text">Redes Sociais</h5>
-                <ul>
-                    <li>
-                        <a class="white-text" target="_blank" href="https://www.facebook.com/raimundormneto">
-                            <i class="small fa fa-facebook-square white-text"></i> Facebook
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" target="_blank" href="https://twitter.com/RdoNetto30">
-                            <i class="small fa fa-twitter-square white-text"></i> Twitter
-                        </a>
-                    </li>
-                    <li>
-                        <a class="white-text" target="_blank" href="https://www.linkedin.com/in/raimundo-rodrigues-de-moura-néto-748902b6">
-                            <i class="small fa fa-linkedin-square white-text"></i> Linkedin
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            <!-- Fim das Redes Sociais -->
-
-             <div class="col l3 s12">
-                <ul>
-                    <li><h6 class="white-text">Interessados entrem em contato através do e-mail ou telefone: </h6> <h5 class="white-text">raimundormneto@outlook.com</h5>
-                    </li>
-                    <li>
-                        <h5 class="white-text"> <i class="small fa fa-phone-square white-text"></i> (88)9.9707-5717</h5>
-                    </li>
-                </ul>
-            </div>
-
-
-
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <!--<div class="clear sep__1"></div>
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">
+        <h3 class="head1">Latest News</h3>
+      </div>
+      <div class="grid_6">
+        <img src="images/page1_img1.jpg" alt="" class="img_inner fleft">
+        <div class="extra_wrapper">
+          <div class="text1">
+            <time datetime="2014-01-01">14 June </time>
+            <a href="#">Quisque viverra</a>
+          </div>
+          Dipsum dolor sit amet, consecteturertolom  werto moniko
+          sit amet ultricies erat rutruma auctorerttu terolp sadertto
+          Integer convallis orci vel mi laoreetatwertlim wernom vert
+          Ipsum dolor sit amsecteturertolom  lid ber asrot
         </div>
-    </div>
-    <div class="col s12 m12" class="footer-copyright default_color">
-        <div class="container">
-
-            <a class="white-text">Copyright © 2016 - 2017</a> <a class="white-text" href="http://raimundoneto.github.io">Raimundo Néto. Todos os Direitos Reservados.</a>
+        <div class="clear"></div>
+      </div>
+      <div class="grid_6">
+        <img src="images/page1_img2.jpg" alt="" class="img_inner fleft">
+        <div class="extra_wrapper">
+          <div class="text1">
+            <time datetime="2014-01-01">17 June </time>
+            <a href="#">Kuisque viverrert</a>
+          </div>
+          Lipsum dolor sit amet, consecteturertolom  dewas terolo
+          it amet ultricies erat rutruma auctorerttu nertoli moniko
+          Integer convallis orci vel mi laoreetatwertlim wastrolin der
+          psum dolor sit amsecteturertolom  saterolo monikom
         </div>
+        <div class="clear"></div>
+      </div>
     </div>
+  </div>-->
+ <!-- <div class="clear sep__1 sp__1"></div>
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">
+        <h3>Projetos em destaque</h3>
+      </div>
+      <div class="grid_3">
+        <div class="ih-item circle effect2 left_to_right"><a href="#">
+        <div class="img"><img src="images/gymnasium_nome.png" alt="img"></div>
+        <div class="info">
+          <h3>Gymnasium</h3>
+          <p>Leia Mais</p>
+        </div></a></div>
+      </div>
+      <div class="grid_3">
+        <div class="ih-item circle effect2 left_to_right"><a href="#">
+        <div class="img"><img src="images/circ_img2.jpg" alt="img"></div>
+        <div class="info">
+          <h3>Fortesi</h3>
+          <p>Leia Mais</p>
+        </div></a></div>
+      </div>
+       <div class="grid_3">
+        <div class="ih-item circle effect2 left_to_right"><a href="#">
+        <div class="img"><img src="images/circ_img3.jpg" alt="img"></div>
+        <div class="info">
+          <h3>Marathon</h3>
+          <p>learn more</p>
+        </div></a></div>
+      </div>
+      <div class="grid_3">
+        <div class="ih-item circle effect2 left_to_right"><a href="#">
+        <div class="img"><img src="images/circ_img4.jpg" alt="img"></div>
+        <div class="info">
+          <h3>Travel Agency</h3>
+          <p>learn more</p>
+        </div></a></div>
+      </div>
+  -->   </div>
+  </div>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">
+        <div class="socials">
+          <a href="https://twitter.com/RdoNetto30" target="_blank" class="fa fa-twitter"></a>
+          <a href="https://www.facebook.com/raimundormneto" target="_blank" class="fa fa-facebook"></a>
+          <a href="https://www.linkedin.com/in/raimundo-rodrigues-de-moura-n%C3%A9to-748902b6/" target="_blank" class="fa fa-linkedin"></a>
+        </div>
+        <div class="copyright"><span class="brand">Raimundo Néto</span> &copy; <span id="copyright-year"></span> | <a href="#">Política de Privacidade </a> <div>Designed by <a href="http://raimundoneto.github.io.github.io" rel="nofollow">raimundoneto.github.io</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
-
-
-    <!--  Scripts-->
-    <script src="min/plugin-min.js"></script>
-    <script src="min/custom-min.js"></script>
-
-    </body>
+</body>
 </html>
