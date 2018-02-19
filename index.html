@@ -1,218 +1,254 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<title>Raimundo Néto | Analiste de Sistemas e Desenvolvedor Web.</title>
-<meta charset="utf-8">
-<meta name="format-detection" content="telephone=no">
-<link rel="icon" href="images/favicon.ico">
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="stylesheet" href="css/stuck.css">
-<link rel="stylesheet" href="css/style.css">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Raimundo Néto | Analista de Sistemas</title>
 
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous"> -->
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  
+  <!-- CORE CSS-->
+  
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <!-- Custome CSS-->    
+    <link href="css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
 
 
-<script src="js/jquery.js"></script>
-<script src="js/jquery-migrate-1.1.1.js"></script>
-<script src="js/script.js"></script>
-<script src="js/superfish.js"></script>
-<script src="js/jquery.equalheights.js"></script>
-<script src="js/jquery.mobilemenu.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/tmStickUp.js"></script>
-<script src="js/jquery.ui.totop.js"></script>
-<script>
- $(document).ready(function(){
-  $().UItoTop({ easingType: 'easeOutQuart' });
-  $('#stuck_container').tmStickUp({});
-  });
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
-<!--[if lt IE 9]>
- <div style=' clear: both; text-align:center; position: relative;'>
-   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-   </a>
-</div>
-<script src="js/html5shiv.js"></script>
-<link rel="stylesheet" media="screen" href="css/ie.css">
-<![endif]-->
-<!--[if lt IE 10]>
-<link rel="stylesheet" media="screen" href="css/ie1.css">
-<![endif]-->
+  <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+  <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/magnific-popup/magnific-popup.css" type="text/css" rel="stylesheet" media="screen,projection">
+  
 </head>
-<body class="page1" id="top" >
-<!--==============================
-              header
-=================================-->
-<header>
-<!--==============================
-            Stuck menu
-=================================-->
-  <section id="stuck_container" >
-    <div class="container" >
-      <div class="row">
-        <div class="col-12">
-        <h1>
-          <a href="index.html">
-            <img src="images/logo.png" alt="Logo alt">
-          </a>
-        </h1>
-          <div class="navigation ">
-            <nav>
-              <ul class="sf-menu">
-               <li class="current"><a href="index.html">Home</a></li>
-               <li><a href="index-1.html">Sobre Mim</a></li>
-               <li><a href="index-2.html">Portfolio</a></li>
-               <li><a href="index-4.html">Contato</a></li>
-             </ul>
-            </nav>
-            <div class="clear"></div>
+<body>
+  <div class="col s12 m8 l9">
+    <nav class="light-blue">
+     <div class="nav-wrapper">
+      <a id="logo-container" href="https://raimundoneto.github.io" class="brand-logo">Raimundo Néto</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#sobremim">Sobre mim</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#sobremim">Sobre mim</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </nav>
+  </div>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br>
+        <p></p>
+        <br>
+        <p></p>
+        <br>
+
+        <h2 class="header center teal-text text-lighten-2">Raimundo Néto <br> Analista de Sistemas</h2>
+        <div class="row center">
+          <!-- <h5 class="header col s12 light">“A melhor maneira de prever o futuro é inventá-lo." Alan Kay.</h5> -->
+        </div>
+        <div class="row center">
+          <a href="portfolio.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Meus Trabalhos</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="img/tech1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row" id="vejamais">
+        <div class="col s12 m4" >
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">computer</i></h2>
+            <h5 class="center">Desenvolvimento WEB</h5>
+
+            <p class="light">Criação de sites exclusivos, dinâmicos, modernos. Aumente as possibilidades de negócio com um site bonito, bem apresentável que convença seus clientes que a sua empresa é a melhor opção para eles.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">photo_size_select_actual
+</i></h2>
+            <h5 class="center">Criação de Logotipo</h5>
+
+            <p class="light">Desenvolvimento do seu logotipo, para ajudar seu site a representar a sua empresa na internet, assim criando sua indentidade visual.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Sites Responsivos</h5>
+
+            <p class="light"> Possuir um Site Responsivo é possuir um layout que se adapte a qualquer tamanho de tela (smartphone, tablet, notebook e desktop), garantindo a melhor visualização e acessibilidade ao conteúdo</p>
           </div>
         </div>
       </div>
+
     </div>
-  </section>
-</header>
-<!--=====================
-          Content
-======================-->
-<section class="content"><div class="ic"></div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"><h3>“A melhor maneira de prever o futuro é inventá-lo."</h3> Alan Kay.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/tech.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
   <div class="container">
-    <div class="row">
-      <div class="grid_12">
-        <div class="ta__center">
-          <h2>“A melhor maneira de prever o futuro é inventá-lo."<h3>Alan Kay.</h3> </h2>
-          
+    <div class="section">
 
-             <div class="banners">
-            <a href="#" class="banner">
-              <img src="images/bann_img1.jpg" alt="">
-              <div class="bann_capt"><span>Web Design</span></div>
-            </a>
-            <a href="#" class="banner">
-              <img src="images/bann_img2.jpg" alt="">
-              <div class="bann_capt"><span>Desenvolvimento</span></div>
-            </a>
-            <a href="#" class="banner">
-              <img src="images/bann_img3.jpg" alt="">
-              <div class="bann_capt"><span>Design Gráfico</span></div>
-            </a>
-            <a href="#" class="banner">
-              <img src="images/bann_img4.jpg" alt="">
-              <div class="bann_capt"><span>Planejamento</span></div>
-            </a>
-          </div>
-
-          <div class="clear"></div>
-           <h3></h3> -
-           <div class="row">
-            <div class="grid_8 preffix_2">
-              <div class="st1"><h3>Gostou dos meus trabalhos? Vamos trabalhar juntos!</h3> <p> <h4> Solicite um orçamento e tenha um site Incrível com a cara de seu negocio.</h4>
-              </div>
-              <a href="index-4.html" class="btn">Orçamento!</a>
+      <div class="row" id="sobremim">
+        <div class="col s12  center" >
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text" >
+              <h4>Sobre Mim</h4>
+              <div class="col s12 m6"> <img width="300" class="circle responsive-img" src="img/raimundo.jpg"></div>
+                <div class="col s12 m6">
+            <h5>Analista de Sistemas | Desenvolvedor Web</h5>
+Vamos lá, meu nome é Raimundo Néto,(acho que vocês já perceberam isso) tenho23 e sou Cearense moro em Piquet Carneiro, cidadezinha pequena no interior do Ceará. Até ai nada de interessante. Bem, eu sou formado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário Dr. Leão Sampaio ou simplesmente <a href="http://www.leaosampaio.edu.br/">UNILEÃO</a>. Trabalho com TI já tem 7 anos, mas já está com um bom tempo que me apaixonei pelo universo da computação, foi amor a primeira vista. Atuo no desenvolvimento de sistemas web e desktop, sites comerciais, marketing digital, consultoria e gerênciamento de projetos.
+            
             </div>
           </div>
-        </div> 
-      </div>
-    </div>
-  </div>
-  <!--<div class="clear sep__1"></div>
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">
-        <h3 class="head1">Latest News</h3>
-      </div>
-      <div class="grid_6">
-        <img src="images/page1_img1.jpg" alt="" class="img_inner fleft">
-        <div class="extra_wrapper">
-          <div class="text1">
-            <time datetime="2014-01-01">14 June </time>
-            <a href="#">Quisque viverra</a>
-          </div>
-          Dipsum dolor sit amet, consecteturertolom  werto moniko
-          sit amet ultricies erat rutruma auctorerttu terolp sadertto
-          Integer convallis orci vel mi laoreetatwertlim wernom vert
-          Ipsum dolor sit amsecteturertolom  lid ber asrot
-        </div>
-        <div class="clear"></div>
-      </div>
-      <div class="grid_6">
-        <img src="images/page1_img2.jpg" alt="" class="img_inner fleft">
-        <div class="extra_wrapper">
-          <div class="text1">
-            <time datetime="2014-01-01">17 June </time>
-            <a href="#">Kuisque viverrert</a>
-          </div>
-          Lipsum dolor sit amet, consecteturertolom  dewas terolo
-          it amet ultricies erat rutruma auctorerttu nertoli moniko
-          Integer convallis orci vel mi laoreetatwertlim wastrolin der
-          psum dolor sit amsecteturertolom  saterolo monikom
-        </div>
-        <div class="clear"></div>
-      </div>
-    </div>
-  </div>-->
- <!-- <div class="clear sep__1 sp__1"></div>
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">
-        <h3>Projetos em destaque</h3>
-      </div>
-      <div class="grid_3">
-        <div class="ih-item circle effect2 left_to_right"><a href="#">
-        <div class="img"><img src="images/gymnasium_nome.png" alt="img"></div>
-        <div class="info">
-          <h3>Gymnasium</h3>
-          <p>Leia Mais</p>
-        </div></a></div>
-      </div>
-      <div class="grid_3">
-        <div class="ih-item circle effect2 left_to_right"><a href="#">
-        <div class="img"><img src="images/circ_img2.jpg" alt="img"></div>
-        <div class="info">
-          <h3>Fortesi</h3>
-          <p>Leia Mais</p>
-        </div></a></div>
-      </div>
-       <div class="grid_3">
-        <div class="ih-item circle effect2 left_to_right"><a href="#">
-        <div class="img"><img src="images/circ_img3.jpg" alt="img"></div>
-        <div class="info">
-          <h3>Marathon</h3>
-          <p>learn more</p>
-        </div></a></div>
-      </div>
-      <div class="grid_3">
-        <div class="ih-item circle effect2 left_to_right"><a href="#">
-        <div class="img"><img src="images/circ_img4.jpg" alt="img"></div>
-        <div class="info">
-          <h3>Travel Agency</h3>
-          <p>learn more</p>
-        </div></a></div>
-      </div>
-  -->   </div>
-  </div>
-</section>
-<!--==============================
-              footer
-=================================-->
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">
-        <div class="socials">
-          <a href="https://twitter.com/RdoNetto30" target="_blank" class="fa fa-twitter"></a>
-          <a href="https://www.facebook.com/raimundormneto" target="_blank" class="fa fa-facebook"></a>
-          <a href="https://www.linkedin.com/in/raimundo-rodrigues-de-moura-n%C3%A9to-748902b6/" target="_blank" class="fa fa-linkedin"></a>
-        </div>
-        <div class="copyright"><span class="brand">Raimundo Néto</span> &copy; <span id="copyright-year"></span> | <a href="#">Política de Privacidade </a> <div>Designed by <a href="http://raimundoneto.github.io.github.io" rel="nofollow">raimundoneto.github.io</a></div>
         </div>
       </div>
     </div>
+    </div>
   </div>
-</footer>
-</body>
+
+  <div class="container" id="skills">
+   <div class="section">
+    <div class="col s12 center">
+           <h4>Minhas Skills</h4>
+       <div class="col s12 ">
+              
+                  <p>HTML/CSS - 5 Anos de Experiência… 100%</p>
+              <div class="progress">
+                <div class="determinate" style="width: 100%"></div>
+              </div>  
+
+              <p>Bootstrap e MaterializeCSS - 2 Anos de Experiência… 100%</p>
+              <div class="progress">
+                <div class="determinate" style="width: 100%"></div>
+              </div>
+
+              <p>PHP - 4 Anos de Experiência… 78%</p>
+              <div class="progress">
+                <div class="determinate" style="width: 78%"></div>
+              </div>
+
+              <p>JavaScript - 3 Anos de Experiência… 70%</p>
+              <div class="progress">
+                <div class="determinate" style="width: 70%"></div>
+              </div>
+
+              <p>Python - 1 Ano de Experiência… 35%</p>
+              <div class="progress">
+                <div class="determinate" style="width: 35%"></div>
+              </div>  
+
+              <p>SQL - 3 Anos de Experiência… 65%</p>
+              <div class="progress">
+                <div class="determinate" style="width: 65%"></div>
+              </div>
+
+              <p>Infraestrutura de Redes - 1 Ano de Experiência… 45%</p>
+              <div class="progress">
+                <div class="determinate" style="width: 45%"></div>
+              </div> 
+
+              <p>Photoshop e Illustrator… 70%</p>
+              <div class="progress">
+                <div class="determinate" style="width: 70%"></div>
+              </div>
+
+      </div>  
+  </div>
+</div>
+</div>
+
+
+<!--   <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+     <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
+  </div> -->
+
+  <footer class="page-footer teal" id="contato">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contato</h5>
+          <p class="grey-text text-lighten-4">
+            Atendimento 24 horas por semana de Segunda a Sexta, exceto em feriados.
+                <br>
+                Rua Ceará, 
+                Bairro Armando Melo, 
+                nº 70, Piquet Carneiro - Ceará <br>
+                Telefone: +55 (88)9 9707-5717<br>
+                E-mail: raimundormneto@outlook.com</p>
+
+
+        </div>
+        <div class="col l6 s12">
+          <h5 class="white-text">Redes Sociais</h5>
+          <ul>
+            <li><a class="waves-effect waves-light btn social facebook" href="https://www.facebook.com/raimundormneto" target="_blank"><i class="fa fa-facebook"></i> Facebook</a> </li>
+            <br>
+            <li><a class="waves-effect waves-light btn social twitter" href="https://twitter.com/RdoNetto30" target="_blank"><i class="fa fa-facebook"></i> Twitter</a> </li>
+            <br>
+            <li><a class="waves-effect waves-light btn social linkedin" href="https://www.linkedin.com/in/raimundo-rodrigues-de-moura-n%C3%A9to-748902b6/" target="_blank"><i class="fa fa-facebook"></i> Linkedin</a> </li>
+
+            
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+         <a class="white-text">Copyright © 2016 - 2018</a> <a class="white-text" href="http://raimundoneto.github.io">Raimundo Néto. Todos os Direitos Reservados.</a>
+         Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
