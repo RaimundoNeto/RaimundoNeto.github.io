@@ -1,266 +1,902 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html class="js no-touch">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Raimundo Néto | Analista de Sistemas</title>
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  
-  
-  <!-- CORE CSS-->
-  
-  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-    <!-- Custome CSS-->    
-    <link href="css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-
-
-  <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
-  <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="js/plugins/magnific-popup/magnific-popup.css" type="text/css" rel="stylesheet" media="screen,projection">
-  
+    <meta charset="utf-8" lang="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="Design Tamplate">
+    <meta name="csrf-token">
+    <meta name="author" content="Honglio">
+    <title>Raimundo Néto | Analista de Sistemas.</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/lib/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/lib/flat-ui.css" type="text/css">
+    <link rel="stylesheet" href="css/lib/material.css">
+    <link rel="stylesheet" href="css/lib/ripples.css">
+    <link rel="stylesheet" href="css/base.css" type="text/css">
+    <link rel="stylesheet" href="css/style-blue.css" type="text/css">
+    <link rel="alternate stylesheet" type="text/css" href="css/style-blue.css" title="blue" media="all">
+    <link rel="alternate stylesheet" type="text/css" href="css/style-black.css" title="black" media="all">
+    <link rel="alternate stylesheet" type="text/css" href="css/style-cyan.css" title="cyan" media="all">
+    <link rel="alternate stylesheet" type="text/css" href="css/style-green.css" title="green" media="all">
+    <link rel="alternate stylesheet" type="text/css" href="css/style-orange.css" title="orange" media="all">
+    <link rel="alternate stylesheet" type="text/css" href="css/style-pink.css" title="pink" media="all">
+    <link rel="alternate stylesheet" type="text/css" href="css/style-purple.css" title="purple" media="all">
+    <link rel="alternate stylesheet" type="text/css" href="css/style-red.css" title="red" media="all"> 
+    <!-- Slider -->
+    <link rel="stylesheet" href="rs-plugin/css/settings.css" type="text/css">
+    <link rel="stylesheet" href="showbizpro/css/settings.css" type="text/css" media="screen">
+    <!--[if lt IE 9]>
+<script src="js/vendors/html5shiv.js"></script>
+<![endif]-->
+    <!--[if lt IE 10]>
+<script src="js/vendors/jquery.placeholder.js"></script>
+<![endif]-->
+    <!-- JS -->
+    <script type="text/javascript" src="js/vendors/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/vendors/toucheffects.js"></script>
+    <script type="text/javascript" src="js/vendors/jquery.js"></script>
+    <script type="text/javascript" src="js/vendors/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="js/vendors/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/vendors/bootstrap.js"></script>
+    <script type="text/javascript" src="js/vendors/material.js"></script>
+    <script type="text/javascript" src="js/vendors/ripples.js"></script>
+    <script type="text/javascript" src="js/vendors/less-1.7.5.min.js"></script>
 </head>
+
 <body>
-  <div class="col s12 m8 l9">
-    <nav class="light-blue">
-     <div class="nav-wrapper">
-      <a id="logo-container" href="https://raimundoneto.github.io" class="brand-logo">Raimundo Néto</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#sobremim">Sobre mim</a></li>
-        <li><a href="portfolio.html">Portfólio</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#sobremim">Sobre mim</a></li>
-        <li><a href="portfolio.html">Portfólio</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </nav>
-  </div>
-
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br>
-        <p></p>
-        <br>
-        <p></p>
-        <br>
-
-        <h2 class="header center teal-text text-lighten-2">Raimundo Néto <br> Analista de Sistemas</h2>
-        <div class="row center">
-          <!-- <h5 class="header col s12 light">“A melhor maneira de prever o futuro é inventá-lo." Alan Kay.</h5> -->
-        </div>
-        <div class="row center">
-          <a href="portfolio.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Meus Trabalhos</a>
-          <a href="documentos/pdf/curriculo/cv_Raimundo_Rodrigues_De_Moura_Néto.pdf" target="_blank" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Meu Currículo</a>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="img/Sunset_at_Tiergarten_UHD.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row" id="vejamais">
-        <div class="col s12 m4" >
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">computer</i></h2>
-            <h5 class="center">Desenvolvimento WEB</h5>
-
-            <p class="light">Criação de sites exclusivos, dinâmicos, modernos. Aumente as possibilidades de negócio com um site bonito, bem apresentável que convença seus clientes que a sua empresa é a melhor opção para eles.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">photo_size_select_actual
-</i></h2>
-            <h5 class="center">Criação de Logotipo</h5>
-
-            <p class="light">Desenvolvimento do seu logotipo, para ajudar seu site a representar a sua empresa na internet, assim criando sua indentidade visual.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Sites Responsivos</h5>
-
-            <p class="light"> Possuir um Site Responsivo é possuir um layout que se adapte a qualquer tamanho de tela (smartphone, tablet, notebook e desktop), garantindo a melhor visualização e acessibilidade ao conteúdo</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light"><h3>“A melhor maneira de prever o futuro é inventá-lo."</h3> Alan Kay.</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="img/tech.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row" id="sobremim">
-        <div class="col s12  center" >
-        <div class="card blue-grey darken-1">
-            <div class="card-content white-text" >
-              <h4>Sobre Mim</h4>
-              <div class="col s12 m6"> <img width="300" class="circle responsive-img" src="img/raimundo.jpg"></div>
-                <div class="col s12 m6">
-            <h5>Analista de Sistemas | Desenvolvedor Web</h5>
-Vamos lá, meu nome é Raimundo Néto,(acho que vocês já perceberam isso) tenho 23 anos e sou Cearense moro em Piquet Carneiro, cidadezinha pequena no interior do Ceará. Até ai nada de interessante. Bem, eu sou formado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário Dr. Leão Sampaio ou simplesmente <a href="http://www.leaosampaio.edu.br/">UNILEÃO</a>. Trabalho com TI já tem 7 anos, mas já está com um bom tempo que me apaixonei pelo universo da computação, foi amor a primeira vista. Atuo no desenvolvimento de sistemas web e desktop, sites comerciais, marketing digital, consultoria e gerênciamento de projetos.
-             <br>
-             <br>
-             <a href="documentos/pdf/curriculo/cv_Raimundo_Rodrigues_De_Moura_Néto.pdf" target="_blank" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Meu Currículo</a>
-        </div>
+    <header>
+        <section id="top-nav" style="z-index:100" class="navbar-wrapper">
+            <div class="container">
+                <div class="navwrapper">
+                    <nav role="navigation" class="navbar navbar-fixed-top navbar-inverse">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" data-toggle="collapse" data-target="#navbar-collapse" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Raimundo Néto</a></div>
+                            <div id="navbar-collapse" class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class="menuItem active"><a href="#quemsoueu">Home</a></li>
+                                    <li class="menuItem"><a href="#service1">Serviços</a></li>
+                                    <!-- <li class="menuItem"><a href="#advert1">Mercado</a></li> -->
+                                    <li class="menuItem"><a href="#portfolio">Portfólio</a></li>
+                                    <!-- <li class="menuItem"><a href="#advert2">Produtos</a></li> -->
+                                    <!-- <li class="menuItem"><a href="#wrapper2">Demonstração</a></li> -->
+                                    <!-- <li class="menuItem"><a href="#advert3">A Empresa</a></li> -->
+                                    <!-- <li class="menuItem"><a href="#price">Planos</a></li> -->
+                                    <!-- <li class="menuItem"><a href="#advert4">Promoção</a></li> -->
+                                    <!-- <li class="menuItem"><a href="#client">A Empresa</a></li> -->
+                                    <!-- <li class="menuItem"><a href="#advert5">Display</a></li> -->
+                                    <li class="menuItem"><a href="#contato">Contato</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </div>
-          </div>
+        </section>
+        <!-- <a href="https://github.com/honglio/Diversity"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:200" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a> -->
+    </header>
+    <main>
+         <div id="quemsoueu">
+            <div data-speed="10" data-type="background" class="container-fluid modul-bt-one ">
+                <div class="container modul-space-eight">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <div class="advert-two-image clearfix"><img src="img/equipe/eu1.jpg" alt="Advert"></div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="advert-one advert-phone mso-icon-seven-space">
+                                <h1>Quem é Raimundo Néto?</h1>
+                                <!--One-->
+                                <div class="modul-services-two mso-icon-seven">
+                                    <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-four-space pull-left"><!-- <i class="fa fa-leaf fa-2x hi-icon"></i> --></div>
+                                    <p><strong>Formação:</strong></p>
+                                    <p>Tecnólogo em Análise e Desenvolvimento de Sistemas;
+                                    Pós-Graduando em Redes de Computadores com ênfase em Segurança da Informáção. <p><strong>Instituição:</strong></p>
+                                    Centro Universitário Dr. Leão Sampaio ou simplesmente UNILEÃO.</p>
+                                </div>
+                                <div class="clearfix"></div>
+                                <!--Two-->
+                                <div class="modul-services-two mso-icon-seven">
+                                    <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-four-space pull-left"><!-- <i class="fa fa-plane fa-2x hi-icon"></i> --></div>
+                                    <p><strong>Um pouco sobre meu trabalho:</strong></p>
+                                    <p>Trabalho com TI já tem 7 anos, mas já está com um bom tempo que me apaixonei pelo universo da computação, foi amor a primeira vista. Atuo no desenvolvimento de sistemas web e desktop, sites comerciais, marketing digital, consultoria, gerênciamento de projetos. </p>
+                                </div>
+                                <div class="clearfix"></div>
+                                <!--Three-
+                                <div class="modul-services-two mso-icon-seven">
+                                    <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-four-space pull-left"><!-- <i class="fa fa-comments fa-2x hi-icon"></i> --</div>
+                                    <p><strong>采访中，甚至成员</strong></p>
+                                    <p>你需要你的胡斯托。Quisque ornareviéndose为方便起见，使用pentumos或融资的任何酱沙拉。</p>
+                                </div>
+                                Bem, eu sou formado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário Dr. Leão Sampaio ou simplesmente UNILEÃO. Trabalho com TI já tem 7 anos, mas já está com um bom tempo que me apaixonei pelo universo da computação, foi amor a primeira vista. Atuo no desenvolvimento de sistemas web e desktop, sites comerciais, marketing digital, consultoria e gerênciamento de projetos. -->
+                                <div class="clearfix"></div>
+                                <a class="btn btn-default advert-button-seven" href="https://raimundonetoblog.wordpress.com/" target="_blank">Meu Blog</a> 
+                                <a class="btn btn-primary advert-button-seven">Meu Currículo</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- <div id="wrapper">
+            <!--Slider-
+            <div class="tp-banner-container">
+                <div class="tp-banner">
+                    <ul><!--//// Slide 01 - Início////-
+                        <li data-transition="slotzoom-horizontal" data-slotamount="5" data-masterspeed="700"><img src="img/theme/slideback-blue.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                            <div data-x="center" data-hoffset="0" data-y="center" data-voffset="-50" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:400;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="1700" data-easing="Back.easeInOut" data-endeasing="Back.easeInOut" data-endspeed="1000" style="z-index: 11;" class="tp-caption mediumlarge_light_white customin customout hidden-xs">
+                            </div>
+                            <div data-x="center" data-hoffset="0" data-y="center" data-voffset="0" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:400;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="2000" data-easing="Back.easeInOut" data-endeasing="Back.easeInOut" data-endspeed="1000" style="z-index: 11;" class="tp-caption medium_light_white customin customout hidden-xs">
+                            </div></br>
+                            <div data-x="center" data-hoffset="0" data-y="center" data-voffset="60" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:400;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="2300" data-easing="Back.easeInOut" data-endeasing="Back.easeInOut" data-endspeed="1000" style="z-index: 11;" class="tp-caption medium_light_black customin customout"></br></br><p></p><a class="btn btn-slider btn-lg" href="#advert3">Sobre a Empresa</a></div>
+                        </li>
+                          <!--//// Slide 01 - Fim////-
+
+                          <!--//// Slide 02 - Início////-
+                        <li data-transition="slotzoom-horizontal" data-slotamount="5" data-masterspeed="700"><img src="img/theme/slideback-red.jpg" alt="slidebg2" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                            <div data-x="right" data-hoffset="-100" data-y="center" data-voffset="-50" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:400;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="1700" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Back.easeInOut" style="z-index: 11;" class="tp-caption mediumlarge_light_white customin customout hidden-xs">App móveis</div>
+                            <div data-x="right" data-hoffset="-100" data-y="center" data-voffset="0" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:400;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="2000" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Back.easeInOut" style="z-index: 11;" class="tp-caption medium_light_white customin customout hidden-xs">Teste gratuito
+                            </div>
+                            <div data-x="right" data-hoffset="-100" data-y="center" data-voffset="60" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:400;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="2300" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Back.easeInOut" style="z-index: 11;" class="tp-caption medium_light_black customin customout hidden-xs"><a class="btn btn-slider btn-lg">Baixe agora</a>
+                            </div>
+                            <div data-x="left" data-hoffset="0" data-y="bottom" data-voffset="110" data-customin="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 0%;" data-customout="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 0%;" data-speed="1000" data-start="2300" data-easing="Back.easeInOut" data-endspeed="300" style="z-index: 1;" class="tp-caption medium_light_black customin customout"><img src="img/theme/slide-one.png" alt="Slide One"></div>
+                        </li>
+                        <!--//// Slide 02 - Fim////-
+
+                        <!--//// Slide 03 - Início////--
+                        <li data-transition="slotzoom-horizontal" data-slotamount="5" data-masterspeed="700"><img src="img/theme/slideback-green.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                            <div data-x="right" data-hoffset="-100" data-y="center" data-voffset="-50" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:400;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="1700" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Back.easeInOut" style="z-index: 11;" class="tp-caption mediumlarge_light_white customin customout hidden-xs">App móveis</div>
+                            <div data-x="right" data-hoffset="-100" data-y="center" data-voffset="0" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:400;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="2000" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Back.easeInOut" style="z-index: 11;" class="tp-caption medium_light_white customin customout hidden-xs">Teste Gratuito</div>
+                            <div data-x="right" data-hoffset="-100" data-y="center" data-voffset="60" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:400;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="2300" data-easing="Back.easeInOut" data-endspeed="300" data-endeasing="Back.easeInOut" style="z-index: 11;" class="tp-caption medium_light_black customin customout hidden-xs"><a class="btn btn-slider btn-lg">Baixe Agora</a>
+                            </div>
+                            <div data-x="left" data-hoffset="0" data-y="bottom" data-voffset="110" data-customin="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 0%;" data-customout="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 0%;" data-speed="1000" data-start="2300" data-easing="Back.easeInOut" data-endspeed="300" style="z-index: 1;" class="tp-caption medium_light_black customin customout"><img src="img/theme/slide-two.png" alt="Slide One"></div>
+                        </li>
+                        <!--//// Slide 03 - Fim////-
+
+                        <!--//// Slide 04 - Início////-
+                        <li data-transition="slotzoom-horizontal" data-slotamount="5" data-masterspeed="700"><img src="img/theme/slideback-white.jpg" alt="slidebg4" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                            <div data-x="center" data-hoffset="0" data-y="center" data-voffset="-260" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:400;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="1700" data-easing="Back.easeInOut" data-endeasing="Back.easeInOut" data-endspeed="1000" style="z-index: 11;" class="tp-caption mediumlarge_light_black customin customout hidden-xs">
+                            </div>
+                            <div data-x="center" data-hoffset="0" data-y="center" data-voffset="-200" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:400;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="2000" data-easing="Back.easeInOut" data-endeasing="Back.easeInOut" data-endspeed="1000" style="z-index: 11;" class="tp-caption medium_light_black customin customout hidden-xs">Design Responsivo</div>
+
+
+                            <div data-x="center" data-hoffset="0" data-y="bottom" data-voffset="180" data-customin="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 0%;" data-customout="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 0%;" data-speed="1000" data-start="2300" data-easing="Back.easeInOut" data-endspeed="300" style="z-index: 1;" class="tp-caption medium_light_black customin customout"><img src="img/theme/slide-three.png" alt="Slide One"></div>
+                        </li>
+                        <!--//// Slide 04 - Fim////-
+                    </ul>
+                    <div class="tp-bannertimer"></div>
+                </div>
+            </div>
+        </div> -->
+        <div id="service1">
+            <div class="container-fluid module-background-one modul-bt-one" >
+                <div class="container modul-space-two">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 modul-phone">
+                            <div class="modul-services-one mso-icon">
+                                <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space"><i class="fa fa-desktop fa-2x hi-icon"></i></div>
+                                <h6>Desenvolvimento Web</h6>
+                                <p>Desenvolvimento de website profissionais e responsivos, e-commerce, hotsite, portal corporativo, blog, projetos especiais, etc.
+                                </p><!-- <a class="btn btn-primary btn-sm">查看更多</a> -->
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 modul-phone">
+                            <div class="modul-services-one mso-icon">
+                                <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space"><i class="fa fa-magic fa-2x hi-icon"></i></div>
+                                <h6>Criação & Design</h6>
+                                <p>Marca, logotipo, identidade visual, flyers, portfólio, folder, apresentação, anúncio, banners.</p><!-- <a class="btn btn-primary btn-sm">查看更多</a> -->
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 modul-phone">
+                            <div class="modul-services-one mso-icon">
+                                <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space"><i class="fa fa-rocket fa-2x hi-icon"></i></div>
+                                <h6>Marketing Digital</h6>
+                                <p>Campanhas no Google, Facebook, Youtube, Instagram, remarketing,otimização web (SEO), e-mail marketing, presença digital completa.</p><!-- <a class="btn btn-primary btn-sm">查看更多</a> -->
+                            </div>
+                        </div>
+                       <!--  <div class="col-xs-12 col-sm-6 col-md-3 modul-phone">
+                            <div class="modul-services-one mso-icon">
+                                <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space"><i class="fa fa-cogs fa-2x hi-icon"></i></div>
+                                <h6>击败对手</h6>
+                                <p>开发人员和设计师不是佩德罗。警方现正FLID告诉家伙在那里，对面的黑暗Melanthus。</p><a class="btn btn-primary btn-sm">查看更多</a></div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    </div>
-  </div>
+        <!-- <div id="price">
+            <div class="container-fluid module-background-two modul-bt-one" id="bg12">
+                <div class="container modul-space-two">
+                    <div class="row">
+                        <!--Services One-
+                        <div class="col-xs-12 col-sm-6 col-md-3 modul-phone">
+                            <div class="modul-price-one mso-icon-ten">
+                                <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space">
+                                    <div class="hi-icon">
+                                        <h1>R$150</h1>
+                                        <h6>/mês</h6></div>
+                                </div>
+                                <h2>Plano Básico</h2>
+                                <ul>
+                                    <li>2 FLYERS</li>
+                                    <li>ou</li>
+                                    <li>1 Logotipo</li>
+                                    <li>1 VT</li>
+                                    
+                                </ul><a class="btn btn-default btn-lg">CONTRATAR</a></div>
+                        </div>
+                        <!--Services Two-
+                        <div class="col-xs-12 col-sm-6 col-md-3 modul-phone">
+                            <div class="modul-price-one mso-icon-ten">
+                                <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space">
+                                    <div class="hi-icon">
+                                        <h1>R$200</h1>
+                                        <h6>/mês</h6></div>
+                                </div>
+                                <h2>Plano Médio</h2>
+                                <ul>
+                                    <li>2 FLYERS</li>
+                                    <li>ou</li>
+                                    <li>1 Logotipo + 1 VT</li>
+                                    <li>1 Fanpage</li>
+                                    
+                                </ul><a class="btn btn-default btn-lg">CONTRATAR</a></div>
+                        </div>
+                        <!--Services Three-
+                        <div class="col-xs-12 col-sm-6 col-md-3 modul-phone">
+                            <div class="modul-price-one mso-icon-ten">
+                                <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space">
+                                    <div class="hi-icon">
+                                        <h1>R$250</h1>
+                                        <h6>/mês</h6></div>
+                                </div>
+                                <h2>Plano Avançado</h2>
+                                <ul>
+                                    <li>2 FLYERS</li>
+                                    <li>ou</li>
+                                    <li>1 Logotipo + 1 VT</li>
+                                    <li>1 Fanpage + 1 SITE Padrão</li>
+                                    
+                                </ul><a class="btn btn-default btn-lg">CONTRATAR</a></div>
+                        </div>
+                        <!--Services Four-
+                        <div class="col-xs-12 col-sm-6 col-md-3 modul-phone">
+                            <div class="modul-price-one mso-icon-ten">
+                                <div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b mso-icon-space">
+                                    <div class="hi-icon">
+                                        <h1>R$400</h1>
+                                        <h6>/mês</h6></div>
+                                </div>
+                                <h2>Plano Premium</h2>
+                                <ul>
+                                    <li>2 FLYERS</li>
+                                    <li>1 Logotipo + 1 VT</li>
+                                    <li>1 Fanpage + 1 SITE Padrão</li>
+                                    <li>E-mail Marketing para até 50 Clientes</li>
+                                    
+                                </ul><a class="btn btn-default btn-lg">CONTRATAR</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!--<div id="advert1">
+            <div data-speed="10" data-type="background" class="container-fluid modul-bt-one parallax-one">
+                <div class="container modul-space-four">
+                    <!--Advert Module One--
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 hidden-md hidden-lg">
+                            <div class="advert-one-image"><img src="img/theme/advert1.png" alt="Advert"></div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="advert-one">
+                                <h2>也住悲伤贫困</h2>
+                                <p class="advert-one-em">但执法部门希望摩尔人，并ultricies床laoreet的。零售商。埃涅阿斯方便任何人竞争和孩子们。还有，除非和ullamcorper tempor没有喝。</p>
+                                <p>没有键盘，没有药，我的喉咙，NIBH很多弓，猫，它的足球生命本身的恐惧。没有malesuada ullamcorper颤动。没有生命，有一定的蛋白质，现在的作者。 Donec坐阿梅德，consectetur柔和的笑声，需要accumsan Mauris资产。现在和禅宗puruson，只有谁blandit。我们的卡通抱枕DUI元素现场直播。 Aliquamattos feugiat乌仁娜房地产，也不宣传，也不是卡通的临床元素。</p><a class="btn btn-default advert-button-one">试用文件</a><a class="btn btn-primary advert-button-one">下载文件</a></div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+                            <div class="advert-one-image"><img src="img/theme/advert1.png" alt="Advert"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <div id="portfolio">
+            <div class="container-fluid module-background-one modul-bt-one">
+                <div class="container modul-space-eight">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-xs-12 col-md-8">
+                            <div class="advert-two-title">
+                                <a href="#" ><h1>Portfólio</h1></a>
+                                <p><i>Visualize meu portfólio completo</i></p>
+                                 
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="clearfix"></div>
+                        <!--FILTER CONTROLS-->
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <div class="portfolio-filter-one controls">
+                                <ul>
+                                    <li data-filter="all" class="btn btn-primary filter active">Todos</li>
+                                    <li data-filter="category_1" class="btn btn-primary filter">Desenvolvimento Web</li>
+                                    <li data-filter="category_2" class="btn btn-primary filter">Design Gráfico</li>
+                                    <!-- <li data-filter="category_3" class="btn btn-primary filter">UI Creative</li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--PORTFOLIO LIST-->
+                        <div id="Grid">
+                            <!--One-->
+                            <div class="col-xs-12 col-sm-12 col-md-4 mix category_1 mix_all">
+                                <div data-cat="1" style="display: inline-block; opacity: 1;" class="portlio-list">
+                                    <div class="grid cs-style-1">
+                                        <figure><img src="imagens/atual.png" alt="img04" class="portlio-list-img">
+                                            <figcaption>
+                                                <div class="image-buttons"><a data-toggle="modal" data-target="#view-portfolio-one" class="btn btn-primary"><i class="fa fa-camera"></i></a></a></div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <h6>Atual Jóias Otica</h6>
+                                    <p>Desenvolvimento Web</p>
+                                </div>
+                            </div>
+                            <!--Two-->
+                            <div class="col-xs-12 col-sm-12 col-md-4 mix category_2 mix_all">
+                                <div data-cat="1" style="display: inline-block; opacity: 1;" class="portlio-list">
+                                    <div class="grid cs-style-1">
+                                        <figure><img src="imagens/helena.png" alt="img04" class="portlio-list-img">
+                                            <figcaption>
+                                                <div class="image-buttons"><a data-toggle="modal" data-target="#view-portfolio-two" class="btn btn-primary"><i class="fa fa-camera"></i></a></a></div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <h6>Helena Conceito</h6>
+                                    <p>Design Gráfico</p>
+                                </div>
+                            </div>
+                            <!--Three-->
+                            <div class="col-xs-12 col-sm-12 col-md-4 mix category_2 mix_all">
+                                <div data-cat="1" style="display: inline-block; opacity: 1;" class="portlio-list">
+                                    <div class="grid cs-style-1">
+                                        <figure><img src="imagens/charme.png" alt="img04" class="portlio-list-img">
+                                            <figcaption>
+                                                <div class="image-buttons"><a data-toggle="modal" data-target="#view-portfolio-three" class="btn btn-primary"><i class="fa fa-camera"></i></a></a></div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <h6>Charme Divino</h6>
+                                    <p>Design Gráfico</p>
+                                </div>
+                            </div>
+                            <!--Four-->
+                            <div class="col-xs-12 col-sm-12 col-md-4 mix category_1 mix_all">
+                                <div data-cat="1" style="display: inline-block; opacity: 1;" class="portlio-list">
+                                    <div class="grid cs-style-1">
+                                        <figure><img src="imagens/frota.png" alt="img04" class="portlio-list-img">
+                                            <figcaption>
+                                                <div class="image-buttons"><a data-toggle="modal" data-target="#view-portfolio-four" class="btn btn-primary"><i class="fa fa-camera"></i></a></a></div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <h6>Sistema de Gerenciamento de Frota</h6>
+                                    <p>Desenvolvimento Web</p>
+                                </div>
+                            </div>
+                            <!--Five-->
+                            <div class="col-xs-12 col-sm-12 col-md-4 mix category_2 mix_all">
+                                <div data-cat="1" style="display: inline-block; opacity: 1;" class="portlio-list">
+                                    <div class="grid cs-style-1">
+                                        <figure><img src="imagens/imperio.png" alt="img04" class="portlio-list-img">
+                                            <figcaption>
+                                                <div class="image-buttons"><a data-toggle="modal" data-target="#view-portfolio-five" class="btn btn-primary"><i class="fa fa-camera"></i></a></a></div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <h6>Império dos Petiscos</h6>
+                                    <p>Design Gráfico</p>
+                                </div>
+                            </div>
+                            <!--Six-->
+                            <div class="col-xs-12 col-sm-12 col-md-4 mix category_1 mix_all">
+                                <div data-cat="1" style="display: inline-block; opacity: 1;" class="portlio-list">
+                                    <div class="grid cs-style-1">
+                                        <figure><img src="imagens/gymnasium.png" alt="img04" class="portlio-list-img">
+                                            <figcaption>
+                                                <div class="image-buttons"><a data-toggle="modal" data-target="#view-portfolio-six" class="btn btn-primary"><i class="fa fa-camera"></i></a></a></div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <h6>Sistema de Gerenciamento para Academias de Musculação</h6>
+                                    <p>Desenvolvimento de Web</p>
+                                </div>
+                            </div>
+                            <!--Seven -->
+                            <div class="col-xs-12 col-sm-12 col-md-4 mix category_2 mix_all">
+                                <div data-cat="1" style="display: inline-block; opacity: 1;" class="portlio-list">
+                                    <div class="grid cs-style-1">
+                                        <figure><img src="imagens/dindin.jpg" alt="img04" class="portlio-list-img">
+                                            <figcaption>
+                                                <div class="image-buttons"><a data-toggle="modal" data-target="#view-portfolio-seven" class="btn btn-primary"><i class="fa fa-camera"></i></a></a></div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <h6>DinDin Bom D+</h6>
+                                    <p>Design Gráfico</p>
+                                </div>
+                            </div>
+                            <!--Seven -->
+                            <div class="col-xs-12 col-sm-12 col-md-4 mix category_2 mix_all">
+                                <div data-cat="1" style="display: inline-block; opacity: 1;" class="portlio-list">
+                                    <div class="grid cs-style-1">
+                                        <figure><img src="imagens/vaidacerto.png" alt="img04" class="portlio-list-img">
+                                            <figcaption>
+                                                <div class="image-buttons"><a data-toggle="modal" data-target="#view-portfolio-eight" class="btn btn-primary"><i class="fa fa-camera"></i></a></a></div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <h6>Vai Dar Certo - Beer Truck</h6>
+                                    <p>Design Gráfico</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-  <div class="container" id="skills">
-   <div class="section">
-    <div class="col s12 center">
-           <h4>Minhas Skills</h4>
-       <div class="col s12 ">
-              
-                  <p>HTML/CSS - 5 Anos de Experiência… 100%</p>
-              <div class="progress">
-                <div class="determinate" style="width: 100%"></div>
-              </div>  
-
-              <p>Bootstrap e MaterializeCSS - 2 Anos de Experiência… 100%</p>
-              <div class="progress">
-                <div class="determinate" style="width: 100%"></div>
-              </div>
-
-              <p>PHP - 4 Anos de Experiência… 78%</p>
-              <div class="progress">
-                <div class="determinate" style="width: 78%"></div>
-              </div>
-
-              <p>JavaScript - 3 Anos de Experiência… 70%</p>
-              <div class="progress">
-                <div class="determinate" style="width: 70%"></div>
-              </div>
-
-              <p>Python - 1 Ano de Experiência… 35%</p>
-              <div class="progress">
-                <div class="determinate" style="width: 35%"></div>
-              </div>  
-
-              <p>SQL - 3 Anos de Experiência… 65%</p>
-              <div class="progress">
-                <div class="determinate" style="width: 65%"></div>
-              </div>
-
-              <p>Infraestrutura de Redes - 1 Ano de Experiência… 45%</p>
-              <div class="progress">
-                <div class="determinate" style="width: 45%"></div>
-              </div> 
-
-              <p>Photoshop e Illustrator… 70%</p>
-              <div class="progress">
-                <div class="determinate" style="width: 70%"></div>
-              </div>
-
-      </div>  
-  </div>
-</div>
-</div>
-
-
-<!--   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                    <!--//////////////// ZOOM Aplicado - Inicio ////////////////////////////////////// -->
+                    <!--One Modal Box-->
+                    <div id="view-portfolio-one" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+                                    <h4 class="modal-title"></h4>Atual Jóias Otica</div>
+                                <div class="modal-body"><img src="imagens/atual.png" alt="img04" class="portlio-list-img"></div>
+                                <div class="modal-footer"><a href="#fakelink" class="btn btn-default"><!-- <span class="fui-googleplus"></span></a>
+                                    <a href="#fakelink" class="btn btn-default"><span class="fui-facebook"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-twitter"></span></a>
+                                    <button type="button" data-dismiss="modal" class="btn btn-default">-->
+                                        <a href="https://atualjoiasotica.github.io/" target="_blank">Visualizar Site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Two Modal Box-->
+                    <div id="view-portfolio-two" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+                                    <h4 class="modal-title">Helena Conceito</h4></div>
+                                <div class="modal-body"><img src="imagens/helena.png" alt="img04" class="portlio-list-img"></div>
+                                <div class="modal-footer"><a href="#fakelink" class="btn btn-default"><!-- <span class="fui-googleplus"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-facebook"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-twitter"></span></a>
+                                    <button type="button" data-dismiss="modal" class="btn btn-default">关闭</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Three Modal Box-->
+                    <div id="view-portfolio-three" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+                                    <h4 class="modal-title">Chamer Divino</h4></div>
+                                <div class="modal-body"><img src="imagens/charme.png" alt="img04" class="portlio-list-img"></div>
+                                <div class="modal-footer"><a href="#fakelink" class="btn btn-default"><!-- <span class="fui-googleplus"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-facebook"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-twitter"></span></a>
+                                    <button type="button" data-dismiss="modal" class="btn btn-default">关闭</button> -->
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <!--Four Modal Box-->
+                    <div id="view-portfolio-four" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+                                    <h4 class="modal-title">Sistemas de Gerenciamento de Frotas</h4></div>
+                                <div class="modal-body"><img src="imagens/frota.png" alt="img04" class="portlio-list-img"></div>
+                                <div class="modal-footer"><a href="#fakelink" class="btn btn-default"><!-- span class="fui-googleplus"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-facebook"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-twitter"></span></a>
+                                    <button type="button" data-dismiss="modal" class="btn btn-default">关闭</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Five Modal Box-->
+                    <div id="view-portfolio-five" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+                                    <h4 class="modal-title">Império dos Petiscos</h4></div>
+                                <div class="modal-body"><img src="imagens/imperio.png" alt="img04" class="portlio-list-img"></div>
+                                <div class="modal-footer"><a href="#fakelink" class="btn btn-default"><!-- <span class="fui-googleplus"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-facebook"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-twitter"></span></a>
+                                    <button type="button" data-dismiss="modal" class="btn btn-default">关闭</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Six Modal Box-->
+                    <div id="view-portfolio-six" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+                                    <h4 class="modal-title">Sis.Ge./Academias de Muscuação</h4></div>
+                                <div class="modal-body"><img src="imagens/gymnasium.png" alt="img04" class="portlio-list-img"></div>
+                                <div class="modal-footer"><a href="#fakelink" class="btn btn-default"><!-- <span class="fui-googleplus"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-facebook"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-twitter"></span></a>
+                                    <button type="button" data-dismiss="modal" class="btn btn-default">关闭</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Seven Modal Box -->
+                    <div id="view-portfolio-seven" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+                                    <h4 class="modal-title">DinDin Bom D+</h4></div>
+                                <div class="modal-body"><img src="imagens/dindin.jpg" alt="img04" class="portlio-list-img"></div>
+                                <div class="modal-footer"><a href="#fakelink" class="btn btn-default"><!-- <span class="fui-googleplus"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-facebook"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-twitter"></span></a>
+                                    <button type="button" data-dismiss="modal" class="btn btn-default">关闭</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <!--Eight Modal Box -->
+                    <div id="view-portfolio-eight" tabindex="-1" role="dialog" aria-hidden="true" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+                                    <h4 class="modal-title">Vai Dar Certo - Beer Truck</h4></div>
+                                <div class="modal-body"><img src="imagens/vaidacerto.png" alt="img04" class="portlio-list-img"></div>
+                                <div class="modal-footer"><a href="#fakelink" class="btn btn-default"><!-- <span class="fui-googleplus"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-facebook"></span></a><a href="#fakelink" class="btn btn-default"><span class="fui-twitter"></span></a>
+                                    <button type="button" data-dismiss="modal" class="btn btn-default">关闭</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-     <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
-  </div> -->
+        
+        <!-- <div id="wrapper2">
+            <div class="container-fluid module-background-one modul-bt-one">
+                <div class="container modul-space-eight">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-xs-12 col-md-8">
+                            <div class="advert-two-title">
+                                <h1>保护者投资汤料</h1>
+                                <p>明天，但他们错过了宣传。孩子们在沙拉。本场比赛的成员，我拷打接收Laoreet车辆。但是，从生活中某些需要的箭头球员和纯净的，她想要它。</p><a class="btn btn-default advert-button-nine">购买服务</a><a class="btn btn-primary advert-button-nine">下载软件</a></div>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="clearfix"></div>
+                        <!--Slider-
+                        <div class="tp-banner-container">
+                            <div class="tp-banner-two">
+                                <ul>
+                                    <!--SLIDE ONE-
+                                    <li data-transition="scaledownfrombottom" data-slotamount="5" data-masterspeed="700">
+                                        <!--MAIN IMAGE--<img src="img/theme/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                        <div data-x="right" data-y="top" data-customin="x:0;y:300;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-start="400" data-speed="1000" data-easing="Expo.easeInOut" data-endspeed="1000" data-endeasing="Expo.easeInOut" class="tp-caption customin customout"><img src="img/theme/slide2-2.png" alt="Slide"></div>
+                                        <div data-x="left" data-y="top" data-customin="x:0;y:300;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:400;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-start="800" data-speed="1000" data-easing="Expo.easeInOut" data-endspeed="1000" data-endeasing="Expo.easeInOut" class="tp-caption customin customout"><img src="img/theme/slide2-3.png" alt="Slide"></div>
+                                        <div data-x="center" data-y="top" data-customin="x:0;y:300;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:600;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-start="0" data-speed="1000" data-easing="Expo.easeInOut" data-endspeed="1000" data-endeasing="Expo.easeInOut" class="tp-caption customin customout"><img src="img/theme/slide2-1.png" alt="Slide"></div>
+                                    </li>
+                                    <!--SLIDE TWO--
+                                    <li data-transition="scaledownfrombottom" data-slotamount="5" data-masterspeed="700">
+                                        <!--MAIN IMAGE--<img src="img/theme/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                        <div data-x="left" data-y="top" data-customin="x:0;y:300;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:400;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-start="400" data-speed="1000" data-easing="Expo.easeInOut" data-endspeed="1000" data-endeasing="Expo.easeInOut" class="tp-caption customin customout"><img src="img/theme/slide2-4.png" alt="Slide"></div>
+                                        <div data-x="right" data-y="top" data-customin="x:0;y:300;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-start="0" data-speed="1000" data-easing="Expo.easeInOut" data-endspeed="1000" data-endeasing="Expo.easeInOut" class="tp-caption customin customout"><img src="img/theme/slide2-5.png" alt="Slide"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+         <!--<div id="advert3">
+            <div data-speed="15" data-type="background" class="container-fluid modul-bt-one parallax-three" >
+                <div class="container modul-space-eight">
+                    <div class="row" >
+                        <div class="col-xs-12 col-md-6">
+                            <div class="advert-two-image clearfix"><img src="img/theme/advert4.png" alt="Advert"></div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="advert-one-em">
+                                <h1>Quem Somos?</h1>
+                               <!--  <p class="advert-one-em"><h6>Desenvolvimento Web | Desing & Criação | Marketing Digital</h6></p> 
+                                <p><h4>
+                                	Somos uma Agência de Soluções Digitais, ou seja, completa para o seu negócio. Elaboramos, executamos, medimos e direcionamos empresas e negócios para melhorarem seus resultados.
+                                </h4></p>
+                                <p><h4>
+                                	Entendemos nosso cliente em seu contexto global, o negócio, a estratégia, seu mercado, a concorrência, os colaboradores, seus produtos e serviços. Não olhamos somente o marketing.
+                                </h4></p>    
+                                <p><h4>
+                                	Proporcionar inteligência, planejamento, serviços de marketing digital e tradicional com alta qualidade,  ótimos resultados e custos acessíveis às Pequenas Empresas.  
+                                </h4></p>                    	
 
-  <footer class="page-footer teal" id="contato">
-    <div class="container">
-      <div class="row">
-        <div class="col l4 s12">
-          <h5 class="white-text">Contato</h5>
-          <p class="grey-text text-lighten-4">
-            Atendimento 24 horas por semana de Segunda a Sexta, exceto em feriados.
-                <br>
-                Rua Ceará, 
-                Bairro Armando Melo, 
-                nº 70, Piquet Carneiro - Ceará <br>
-                Telefone: +55 (88)9 9707-5717<br>
-                E-mail: raimundormneto@outlook.com</p>
+                                <!-- <div class="row">
+                                    <div class="col-xs-12 col-md-12">
+                                        <ul class="advert-ul-one">
+                                            <li><i class="fa fa-briefcase"></i>马萨被Didipiscing</li>
+                                            <li><i class="fa fa-coffee"></i>怀孕本身</li>
+                                            <li><i class="fa fa-truck"></i>蒙特斯压力</li>
+                                            <li><i class="fa fa-shopping-cart"></i>除非明天软</li>
+                                            <li><i class="fa fa-phone"></i>软明天麦昆</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-md-6">
+                                        <ul class="advert-ul-one">
+                                            <li><i class="fa fa-plane"></i>但请摩尔</li>
+                                            <li><i class="fa fa-shopping-cart"></i>有没有喝户外</li>
+                                            <li><i class="fa fa-bookmark"></i>和谁ullamcorper</li>
+                                            <li><i class="fa fa-cloud"></i>埃涅阿斯和谁</li>
+                                            <li><i class="fa fa-leaf"></i>糖果必比登取消</li>
+                                        </ul>
+                                    </div>
+                                </div><a class="btn btn-default advert-button-one">购买服务</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+        <!-- <div id="advert4">
+            <div data-speed="15" data-type="background" class="container-fluid modul-bt-one parallax-four">
+                <div class="container modul-space-twelve">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6 hidden-md hidden-lg">
+                            <div class="advert-two-image clearfix"><img src="img/theme/advert3.png" alt="Advert"></div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="advert-one advert-phone">
+                                <h2>也住悲伤贫困</h2>
+                                <p class="advert-one-em">但执法部门希望摩尔人，并ultricies床laoreet的。零售商。埃涅阿斯方便任何人竞争和孩子们。还有，除非和ullamcorper tempor没有喝。</p>
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6">
+                                        <ul class="advert-ul-one">
+                                            <li><i class="fa fa-briefcase"></i>马萨被Didipiscing</li>
+                                            <li><i class="fa fa-coffee"></i>怀孕本身</li>
+                                            <li><i class="fa fa-truck"></i>蒙特斯压力</li>
+                                            <li><i class="fa fa-shopping-cart"></i>除非明天软</li>
+                                            <li><i class="fa fa-phone"></i>软明天麦昆</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-12 col-md-6">
+                                        <ul class="advert-ul-one">
+                                            <li><i class="fa fa-plane"></i>但请摩尔</li>
+                                            <li><i class="fa fa-shopping-cart"></i>有没有喝户外</li>
+                                            <li><i class="fa fa-bookmark"></i>和谁ullamcorper</li>
+                                            <li><i class="fa fa-cloud"></i>埃涅阿斯和谁</li>
+                                            <li><i class="fa fa-leaf"></i>糖果必比登取消</li>
+                                        </ul>
+                                    </div>
+                                </div><a class="btn btn-default advert-button-one">购买服务</a></div>
+                        </div>
+                        <div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+                            <div class="advert-two-image"><img src="img/theme/advert3.png" alt="Advert"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+        <!-- <div id="advert5">
+            <div data-speed="20" data-type="background" class="container-fluid modul-bt-one parallax-five">
+                <div class="container modul-space-seven">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-xs-12 col-md-8">
+                            <div class="advert-two-title">
+                                <h1>保护者投资汤料</h1>
+                                <p>明天，但他们错过了宣传。孩子们在沙拉。本场比赛的成员，我拷打接收Laoreet车辆。但是，从生活中某些需要的箭头球员和纯净的，她想要它。</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="row">
+                        <!--One--
+                        <div class="col-md-12 clearfix">
+                            <div class="advert-big-image"><img src="img/theme/advert5.png" alt="Image"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </main>
+    <footer>
+        <section id="footer">
+            <div class="container-fluid navbar-inverse modul-bt-one" id="contato">
+                <div class="container modul-space-twentysix">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <div class="footer-two">
+                            	<h6>Redes Sociais</h6>
+ 							     <p>Me siga na sua Rede Social preferida.</p>
+                                  <div class="col-md-2"></div>
 
+ 							     <a href="https://www.facebook.com/raimundormneto" target="_blank" class="btn btn-footer"><i class="fa fa-facebook"></i></a>
+ 							     <a href="https://twitter.com/RdoNetto30" target="_blank" class="btn btn-footer"><i class="fa fa-twitter"></i></a>
+ 							     <a href="https://www.linkedin.com/in/raimundo-rodrigues-de-moura-n%C3%A9to-748902b6/" target="_blank" class="btn btn-footer"><i class="fa fa-linkedin"></i></a>
+ 							     <a href="https://github.com/RaimundoNeto" target="_blank" class="btn btn-footer"><i class="fa fa-github"></i></a>
+ 							</div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6">
+                            <div class="footer-two">
+                                <h6>Contato</h6>
+                            <br>
+                                <ul>
+                                    <li><!-- <img src="img/theme/p6.jpg" alt="Image"> -->
+                                        <p><strong>
+                                        	<a class="btn btn-footer"><i class="fa fa-envelope"></i> raimundormneto@outlook.com</a>
+                                        	<a class="btn btn-footer"><i class="fa fa-phone"></i>  +55 (88) 9. 9724-3879</a>
+                                        </p>
+                                        <div class="clearfix"></div>
+                                    </li>
+                                    <!-- <li><!-- <img src="img/theme/p2.jpg" alt="Image"> 
+                                        <p><strong><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" 
+                                        	target="_blank" class="btn btn-footer"><i class="fa fa-phone"></i> +55 (88)9 9724-3879</a></a></p>
+                                        <div class="clearfix"></div>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                      <!--   <div class="col-xs-12 col-sm-12 col-md-4">
+                            <div class="footer-three">
+                                <h6>我们的投资组合</h6>
+                                <ul>
+                                    <li><img src="img/theme/p1.jpg" alt="Image"></li>
+                                    <li><img src="img/theme/p2.jpg" alt="Image"></li>
+                                    <li><img src="img/theme/p3.jpg" alt="Image"></li>
+                                    <li><img src="img/theme/p4.jpg" alt="Image"></li>
+                                    <li><img src="img/theme/p5.jpg" alt="Image"></li>
+                                    <li><img src="img/theme/p6.jpg" alt="Image"></li>
+                                    <li><img src="img/theme/p7.jpg" alt="Image"></li>
+                                    <li><img src="img/theme/p8.jpg" alt="Image"></li>
+                                </ul>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <p>Desenvolvido por <a href="https://raimundoneto.github.io" target="_blank">Raimundo Néto.</a></p>
+            </div>
+        </section>
+    </footer>
+    <script type="text/javascript" src="js/vendors/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="js/vendors/jquery.scrollUp.js"></script>
+    <script type="text/javascript" src="js/vendors/jquery.stickup.min.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
+    <script type="text/javascript">
+        //enabling stickUp on the '.navbar-wrapper' class
+        $(function() {
+            $('#top-nav').stickUp({
+                parts: {
+                    0: 'wrapper',
+                    1: 'service1',
+                    2: 'advert1',
+                    3: 'portfolio',
+                    4: 'advert2',
+                    5: 'wrapper2',
+                    6: 'advert3',
+                    7: 'price',
+                    8: 'advert4',
+                    9: 'client',
+                    10: 'advert5'
+                },
+                itemClass: 'menuItem',
+                itemHover: 'active',
+                topMargin: 'auto'
+            });
+        });
 
-        </div>
-        <div class="col l4 s12">
-          <h5 class="white-text">Redes Sociais</h5>
-          <ul>
-            <li><a class="waves-effect waves-light btn social facebook" href="https://github.com/RaimundoNeto" target="_blank"><i class="fa fa-facebook"></i> Github </a> </li>
-            <br>
-            <li><a class="waves-effect waves-light btn social facebook" href="https://www.facebook.com/raimundormneto" target="_blank"><i class="fa fa-facebook"></i> Facebook</a> </li>
-            <br>
-            <li><a class="waves-effect waves-light btn social twitter" href="https://twitter.com/RdoNetto30" target="_blank"><i class="fa fa-facebook"></i> Twitter</a> </li>
-            <br>
-            <li><a class="waves-effect waves-light btn social linkedin" href="https://www.linkedin.com/in/raimundo-rodrigues-de-moura-n%C3%A9to-748902b6/" target="_blank"><i class="fa fa-facebook"></i> Linkedin</a> </li>            
-          </ul>
-        </div>
+        // In mobile browser, navbar collapse when click on 'a'.
+        $('.navbar.navbar-inverse.navbar-static-top a').click(function() {
+            $('.navbar-collapse').addClass('hideClass');
+        });
 
-        <div class="col l4 s12">
-          <h5 class="white-text">Meu Blog</h5>
-          <ul>
-            <li><a class="waves-effect waves-light btn social facebook" href="https://raimundonetoblog.wordpress.com" target="_blank"> Meu Blog</a></li>
-          </ul>
-          
-        </div>
+        $('.navbar.navbar-inverse.navbar-static-top a').click(function() {
+            $('.navbar-collapse').addClass('collapse');
+        });
 
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-         <a class="white-text">Copyright © 2016 - 2018</a> <a class="white-text" href="http://raimundoneto.github.io">Raimundo Néto. Todos os Direitos Reservados.</a>
-         Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        $('.navbar.navbar-inverse.navbar-static-top a').click(function() {
+            $('.navbar-collapse').removeClass('in');
+        });
 
-      </div>
-    </div>
-    </div>
-  </footer>
+        $('.navbar-toggle').click(function() {
+            $('.navbar-collapse').removeClass('hideClass');
+        });
 
+        // Smoth page scroll
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top - 45
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript" src="js/vendors/jquery.mixitup.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="showbizpro/js/jquery.themepunch.showbizpro.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            //- Slider Options
+            jQuery('.tp-banner').revolution({
+                delay: 90000,
+                startwidth: 1170,
+                startheight: 500,
+                hideThumbs: 10,
+                fullScreen: "on",
+                fullScreenAlignForce: "on",
+                fullScreenOffsetContainer: ".navigation-menu"
+            });
+            jQuery('.tp-banner-two').revolution({
+                delay: 9000000,
+                startwidth: 1200,
+                startheight: 356,
+                hideThumbs: 200,
+                thumbWidth: 100,
+                thumbHeight: 50,
+                thumbAmount: 3,
+                navigationType: "none", // use none, bullet or thumb
+                soloArrowLeftHalign: "left", // left,center,right
+                soloArrowLeftValign: "center", // top,center,bottom
+                soloArrowLeftHOffset: 0, // offset position from aligned position
+                soloArrowLeftVOffset: 0, // offset position from aligned position
+                soloArrowRightHalign: "right", // left,center,right
+                soloArrowRightValign: "center", // top,center,bottom
+                soloArrowRightHOffset: 0, // offset position from aligned position
+                soloArrowRightVOffset: 0, // offset position from aligned position
+                touchenabled: "on",
+                onHoverStop: "on"
+            }); //ready
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+            //- Portfolio Filter
+            jQuery('#Grid').mixitup();
 
-  </body>
+            //- Carusel Slider
+            jQuery('#example6').showbizpro({
+                dragAndScroll: "off",
+                visibleElementsArray: [4, 4, 1, 1],
+                carousel: "on",
+                entrySizeOffset: 0,
+                allEntryAtOnce: "off",
+                rewindFromEnd: "off",
+                autoPlay: "off",
+                delay: 2000,
+                speed: 500
+            });
+            jQuery('#example7').showbizpro({
+                dragAndScroll: "off",
+                visibleElementsArray: [2, 2, 1, 1],
+                carousel: "on",
+                entrySizeOffset: 0,
+                allEntryAtOnce: "off",
+                rewindFromEnd: "off",
+                autoPlay: "off",
+                delay: 2000,
+                speed: 500
+            });
+        });
+    </script>
+</body>
+
 </html>
