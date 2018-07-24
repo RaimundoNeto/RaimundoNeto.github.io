@@ -9,15 +9,17 @@ function gerarAposta() {
 	for (var i = 0; i < Number(qtdApostas); i++) {
 		var tr = document.createElement("tr");
 		var td1 = document.createElement("td");
-		td1.appendChild(document.createTextNode("Jogo " + (i+1) + "- "));
-		if (tipoJogo == "mega sena") {
+		td1.appendChild(document.createTextNode("Jogo " + (i+1) + ": "));
+		if (tipoJogo == "Mega-Sena") {
 			td1.appendChild(document.createTextNode(megaSena(qtdNum)));	
-		} else if (tipoJogo == "lotofacil") {
+		} else if (tipoJogo == "Lotofacil") {
 			td1.appendChild(document.createTextNode(lotoFacil(qtdNum)));	
-		} else if (tipoJogo == "quina") {
+		} else if (tipoJogo == "Quina") {
 			td1.appendChild(document.createTextNode(quina(qtdNum)));
-		} else if (tipoJogo == "sorte") {
-			td1.appendChild(document.createTextNode(sorteDoDia(qtdNum)));
+		} else if (tipoJogo == "Dia de Sorte") {
+			td1.appendChild(document.createTextNode(diaDeSorte(qtdNum)));
+		} else if (tipoJogo == "Lotomania"){
+			td1.appendChild(document.createTextNode(lotomania(qtdNum)));
 		} 
 		
 		tr.appendChild(td1);
@@ -77,8 +79,8 @@ function quina(max) {
 	return lista.sort(compararNumeros); 
 }
 
-function sorteDoDia(max) {
-	// gerar numeros no intervalo entre 1 e 80...
+function diaDeSorte(max) {
+	// gerar numeros no intervalo entre 1 e 60...
 	var lista = [];
 	var num;
 	for (var i = 0; i < Number(max); i++) {
@@ -87,7 +89,23 @@ function sorteDoDia(max) {
 			lista[i] = Number(num);
 		} else {
 			i--;
-		}
+		} 
+	}
+
+	return lista.sort(compararNumeros); 
+}
+
+function lotomania(max) {
+	// gerar numeros no intervalo entre 1 e 60...
+	var lista = [];
+	var num;
+	for (var i = 0; i < Number(max); i++) {
+		num = getRandomInt(1, 101);
+		if (lista.indexOf(Number(num)) === -1) {
+			lista[i] = Number(num);
+		} else {
+			i--;
+		} 
 	}
 
 	return lista.sort(compararNumeros); 
