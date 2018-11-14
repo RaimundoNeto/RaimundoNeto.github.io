@@ -409,7 +409,7 @@ ul {
 	left: 0;
 	top: 0;
 	z-index: 3;
-	background-image: url("../img/overlay.png");
+	/* background-image: url("../img/overlay.png"); */
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -724,8 +724,10 @@ ul {
 	Promotion section
 --------------------------*/
 .promotion-section {
-	background: #2be6ab;
+	/* background: #2be6ab; */
+	background:#03A9F4;
 	padding: 115px 0;
+
 }
 
 .promotion-section h2 {
@@ -762,7 +764,7 @@ ul {
 	height: 100%;
 	right: -15px;
 	top: 0;
-	background: #6a23b5;
+	background: #3F51B5;
 	z-index: -1;
 }
 
@@ -841,12 +843,12 @@ ul {
 	Footer section
 --------------------------*/
 .footer-section {
-	background: #220c3b;
+	background: #00BCD4;
 	text-align: center;
 }
 
 .footer-section h2 {
-	color: #6a23b5;
+	color: #fff;
 	font-size: 14px;
 	padding: 18px 0;
 }
@@ -861,7 +863,8 @@ ul {
 .page-top-section {
 	position: relative;
 	height: 405px;
-	background: #6a23b5;
+	background: #3F51B5;
+	/*background: #6a23b5;*/
 }
 
 .page-top-section .container {
