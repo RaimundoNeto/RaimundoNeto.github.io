@@ -30,7 +30,7 @@
 		
 		<div id="fsvs-body" class="site-wrapper" >
 			
-			<div class="slide" style="color: ghostwhite; background: #2d3436;">
+			<div class="slide" style="color: white; background: #2d3436;">
 			 	<div class="slide-wrapper">
 				 	<div class="slide-wrapper-inner">
 										
@@ -41,7 +41,7 @@
 						&nbsp;|&nbsp; <a >raimundormneto@outlook.com</a> &nbsp;|&nbsp; (88) 9.9728-3479</p></strong>
 						<ul class="social">
 							<li><a href="https://wa.me/5588997283479" target="_blank" title="Whatsapp" class="fa fa-whatsapp"></a></li>
-							<li><a href="https://twitter.com/crf_NETO94" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+							<li><a href="https://twitter.com/_rnNeto" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
 							<!-- <li><a href="#" target="_blank" title="Google+" class="fa fa-google"></a></li> -->
 							<li><a href="https://github.com/RaimundoNeto" target="_blank" title="Github" class="fa fa-github"></a></li>
 							<li><a href="https://www.instagram.com/crf_neto/" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
@@ -49,10 +49,12 @@
 							<div class="clear"></div>
 						</ul>
 													
-						<p class="lead">Tecnólogo em Análise e Desenvolvimento de Sistemas e Pós-Graduando em Redes de Computadores 
+						<p class="lead" >
+						 <h3 class="titulo-principal">Tecnólogo em Análise e Desenvolvimento de Sistemas e Pós-Graduado em Redes de Computadores 
 							com Ênfase em Segurança da Informação.
 							 Desenvolvo projetos voltados para o destaque e fortalecimento do cliente na internet, 
-							 utilizando sempre tecnologias avançadas e ideias inovadoras.	
+							 utilizando sempre tecnologias avançadas e ideias inovadoras.
+						</h3>
 						</p>
 	
 					</div>
@@ -77,8 +79,10 @@
 								</div>
 
 								<div class="col text-left mt-md-3">
-									<p class="pl-md-2 item-description">Responsável por ministrar aulas sobre programação de computadores e
-										desenvolvimento de sistemas web.
+									<p class="pl-md-2 item-description">Presto suporte técnico para instalação, configuração e
+										manutenção de software e hardware, realiza testes de
+										funcionamento e acompanha o desempenho dos recursos
+										técnicos, auxiliando os clientes da empresa sanando suas dúvidas.
 										 </p>
 								</div>
 							</div>
@@ -93,8 +97,12 @@
 								</div>
 
 								<div class="col text-left mt-md-3">
-									<p class="pl-md-2 item-description">Responsável por ministrar aulas sobre programação de computadores e
-										desenvolvimento de sistemas web.
+									<p class="pl-md-2 item-description">Responsável por construir a formação inicial na área de
+										programação web, com a finalidade de oportunizar o
+										conhecimento sobre o domínio em desenvolvimento de
+										sistemas web. Com o objetivo de capacitar o aluno para que o mesmo seja capaz de resolver
+										problemas computacionais e do dia-a-dia utilizando as técnicas ensinadas no curso.
+										
 										 </p>
 								</div>
 							</div>
@@ -162,7 +170,7 @@
 						<div class="item">
 							<div class="row">
 								<div class="col-sm-12 col-md-3 text-left border-right pr-4">
-									<div class="date">2018-Atualmente</div>
+									<div class="date">2018-2019</div>
 									<h3>Pós-Graduação em Redes de Computadores com ênfase em Segurança da Informação</h3>
 									<p class="subtitle"><a href="http://leaosampaio.edu.br" target="_blank">UNILEÃO</a></p>
 								</div>
@@ -388,6 +396,20 @@
 			$(document).ready(function(){
 			    $('.chocolat-parent').Chocolat();
 			});
+
+			function typeWrite(elemento){
+   				 const textoArray = elemento.innerHTML.split('');
+   				 elemento.innerHTML = ' ';
+    			 textoArray.forEach(function(letra, i){   
+      
+    		setTimeout(function(){
+        	elemento.innerHTML += letra;
+    		}, 75 * i)
+
+		    });
+			}
+			const titulo = document.querySelector('.titulo-principal');
+			typeWrite(titulo);
 		</script>
 	</body>
 </html>
