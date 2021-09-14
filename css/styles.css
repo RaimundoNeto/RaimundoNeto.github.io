@@ -149,8 +149,8 @@ html.fsvs #fsvs-pagination li.active > span {
 }
 
 html.fsvs #fsvs-pagination li.active > span > span {
-	background: #666;
-	background: rgba(0, 0, 0, .6);
+	background: #6529d4;
+	background: #ac29d4;
 	width: 16px;
 	height: 16px;
 	margin: 1;
