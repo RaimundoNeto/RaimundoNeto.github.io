@@ -668,6 +668,20 @@
           </div>
         </div>
 
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/APC.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Agência Carnaúba</h4>
+              <p>Empresa de Social Media</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/APC.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                <a href="https://agenciacarnauba.github.io/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
@@ -752,6 +766,39 @@
         <p>Fale comigo</p>
       </div>
 
+        <form  method="post" role="form" class="php-email-form mt-4">
+        <form role="form">
+        <div class="row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
+          </div>
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+          </div>
+        </div>
+      </br>
+        <div class="row">
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Telefone" required>
+          </div>
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="text" class="form-control" name="subject" id="assunto" placeholder="Assunto" required>
+          </div>
+        </div>
+
+        <div class="form-group mt-3">
+         <label for="name">Message</label>
+           <input class="form-control" name="message" id="message" rows="10" required>
+         <a>*Sua mensagem será enviada via Whatsapp.</a> 
+        </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Mensagem enviada com sucesso. Obrigado!</div> 
+        </div>
+           <div class="text-center"><button type="submit" onclick="sendtowhatsapp()">Enviar Mensagem</button></div>
+      </form>
+
       <div class="row mt-2">
 
         <div class="col-md-6 d-flex align-items-stretch">
@@ -776,53 +823,23 @@
           </div>
         </div>
 
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+        <!-- <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-envelope"></i>
             <h3>E-mail</h3>
             <p>raimundormneto@outlook.com</p>
           </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+        </div> -->
+        <!-- <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-phone-call"></i>
             <h3>Telefone/<a href="https://api.whatsapp.com/send/?phone=5588997283479&text=Ol%C3%A1%2C+em+que+posso+ajudar%3F&type=phone_number&app_absent=0" target="_blank">Whatsapp</a>/Telegram </h3>
             <p>(88) 9 9728-3479</p>
           </div>
-        </div>
+        </div> -->
       </div>
 
-      <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4"> --
-        <form role="form">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-          </div>
-        </div>
-      </br>
-        <div class="row">
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Telefone" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="text" class="form-control" name="subject" id="assunto" placeholder="Assunto" required>
-          </div>
-        </div>
 
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" id="messagem" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Mensagem enviada com sucesso. Obrigado!</div> 
-        </div>
-        <input type="submit" name="submit" onclick="sendtowhatsapp()" class="btnSubmit"/>
-        <div class="text-center"> <button onclick="sendtowhatsapp()">Enviar</button></div> 
-      </form> -->
 
     </div>
   </section><!-- End Contact Section -->
@@ -848,25 +865,27 @@
   <script src="assets/js/main.js"></script>
 
   <!-- Script para enviar mensagem-->
-  <!-- <script>
+  <script src="assets/js/main.js"></script>
+
+    <script>
     function sendtowhatsapp(){
       var name = document.getElementById("name").value;
       var email = document.getElementById("email").value;
       var phone = document.getElementById("telefone").value;
       var assunto = document.getElementById("assunto").value;
-      var msg = document.getElementById("mensagem").value;
+      var mensagem = document.getElementById("message").value;
 
       var url = "https://wa.me/+5588997283479?text="
-      + "Nome:" + name + "%0a"
-      + "E-mail:" + email + "%0a"
-      + "Telefone:" + phone + "%0a"
-      + "Assunto:" + assunto + "%0a"
-      + "Mensagem:" + msg;
+      + "Nome: " + name + "%0a"
+      + "E-mail: " + email + "%0a"
+      + "Telefone: " + phone + "%0a"
+      + "Assunto: " + assunto + "%0a"
+      + "Mensagem: " + mensagem;
 
       window.open(url, '_blank').focus();
 
-    } -->
-  </script>
+    };
+    </script>
 </body>
 
 </html>
