@@ -25,7 +25,7 @@
 	Global Styles
 ========================================================================== */
 a {
-	color: #E04343;
+	color: #0D0D0D;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -37,7 +37,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-	color: #0D0D0D;
+	color: #FFE801;
 	text-decoration: none;
 	outline: none !important;
 }
@@ -164,7 +164,7 @@ a:hover {
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
-	color: #353535;
+	color: #607D8B;
 }
 
 h2 {
@@ -413,9 +413,9 @@ table {
 
 .dark-box {
 	background: #F3F5F8;
-	-webkit-box-shadow: 0px 3px 0px 0px #E04343;
-	-moz-box-shadow: 0px 3px 0px 0px #E04343;
-	box-shadow: 0px 3px 0px 0px #E04343;
+	-webkit-box-shadow: 0px 3px 0px 0px #607D8B;
+	-moz-box-shadow: 0px 3px 0px 0px #607D8B;
+	box-shadow: 0px 3px 0px 0px #607D8B;
 	padding: 20px 0;
 }
 
@@ -460,7 +460,7 @@ table {
 
 .menu-wrap a:hover,
 .menu-wrap a:focus {
-	color: #E04343;
+	color: #FFE801;
 }
 
 .content-wrap {
@@ -506,7 +506,7 @@ table {
 	right: 0.5em;
 	bottom: 0.5em;
 	left: 0.5em;
-	background: linear-gradient(#E04343 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 40%, #E04343 40%, #E04343 60%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 80%, #E04343 80%);
+	background: linear-gradient(#607D8B 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 40%, #607D8B 40%, #607D8B 60%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 80%, #607D8B 80%);
 	content: '';
 }
 
@@ -569,7 +569,7 @@ table {
 	transform: translate3d(0, 0, 0);
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
-	border-bottom: 1px solid #E04343;
+	border-bottom: 1px solid #FFE801;
 }
 
 .show-menu .icon-list a {
@@ -631,7 +631,7 @@ table {
 	margin: 0;
 	padding: 0;
 	opacity: 0.5;
-	color: #E04343;
+	color: #607D8B;
 	letter-spacing: 18px;
 	line-height: 50px;
 	text-transform: uppercase;
@@ -738,7 +738,7 @@ table {
 h1.arrow {
 	font-size: 16px;
 	text-transform: uppercase;
-	color: #353535;
+	color: #FFE800;
 	letter-spacing: 4px;
 	background: url('../img/h1-bg.png') no-repeat center bottom;
 	padding-bottom: 30px;
@@ -746,7 +746,7 @@ h1.arrow {
 }
 
 h1.arrow span {
-	color: #E04343;
+	color: #607D8B;
 }
 
 /* ==========================================================================About========================================================================== */
@@ -759,7 +759,7 @@ h1.arrow span {
 }
 
 .color-bg {
-	background: #E04343;
+	background: #607D8B;
 }
 
 .color-bg a {
@@ -824,13 +824,13 @@ h1.arrow span {
 	margin-bottom: 40px;
 	-webkit-transition: all .3s ease-out;
 	transition: all .3s ease-out;
-	border: 1px solid #E04343;
-	color: #E04343;
+	border: 1px solid #607D8B;
+	color: #607D8B;
 }
 
 .services .item:hover .icon {
-	background: #E04343;
-	border: 1px solid #E04343;
+	background: #607D8B ;
+	border: 1px solid #607D8B;
 }
 
 .services .item [class*=fa] {
@@ -843,7 +843,7 @@ h1.arrow span {
 	transform: scale(1.2);
 	-webkit-transition: all .3s ease-out;
 	transition: all .3s ease-out;
-	color: #fff;
+	color: #FFE800;
 }
 
 .features-wrapper {
@@ -1105,26 +1105,32 @@ img.grayscale:hover {
 
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
-	background-color: #E04343;
+	background-color: #607D8B;
 	padding: 70px 0;
-	border-color: #fff;
+	border-color: #607D8B;
 	border-style: solid;
+}
+
+#buttonContato{
+	background-color: #FFE800
+	;
 }
 
 .outline-btn {
 	display: inline-block;
 	padding: 25px 40px;
 	color: #fff;
-	border: solid 1px #fff;
+	border: solid 1px #000;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 1px;
+	border-radius: 12px;
 }
 
 .outline-btn:hover,
 .outline-btn:focus {
-	color: #E04343;
-	border: solid 1px #E04343;
+	color: #000;
+	border: solid 1px #fff;
 	background: #fff;
 }
 
@@ -1167,9 +1173,9 @@ ul.social-buttons li:last-child {
 .social-btn {
 	width: 40px;
 	height: 40px;
-	background: #E04343;
+	background: #607D8B;
 	display: inline-block;
-	color: #fff;
+	color: #FFF;
 	font-size: 17px;
 	line-height: 40px;
 	text-align: center;
@@ -1178,7 +1184,7 @@ ul.social-buttons li:last-child {
 .social-btn:hover,
 .social-btn:focus {
 	background: rgba(255, 232, 0, 1);
-	color: #E04343;
+	color: #607D8B;
 }
 
 .social {
@@ -1271,16 +1277,18 @@ up-btn:focus {
 }
 
 .btn-send {
-	background: #E04343;
+	background: #FFE800;
 	color: white;
 	transition: all 0.4s;
-	border-radius: 0;
+	border-radius: 12px;
+	border-color: #000;
 	float: center;
 }
 
 .btn-send:hover {
 	background: #FFE800;
-	color: #E04343
+	color: #000;
+	border-color: #FFF;
 }
 
 button,
